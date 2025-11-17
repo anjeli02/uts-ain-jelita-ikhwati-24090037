@@ -7,8 +7,9 @@
 - **Kelas**: B
 
 ## Link Repository & Deployment
-- **GitHub Repository**: <a href="https://github.com/anjeli02/uts-ain-jelita-ikhwati-24090037.git"></a>
-- **GitHub Pages**: `https://anjeli02.github.io/uts-ain-jelita-ikhwati-24090037/`
+
+- **GitHub Repository**: https://github.com/anjeli02/uts-ain-jelita-ikhwati-24090037.git
+- **GitHub Pages**: https://anjeli02.github.io/uts-ain-jelita-ikhwati-24090037
 
 ## Deskripsi Project
 
@@ -57,5 +58,6 @@ Halaman manajemen produk dengan fitur:
 ---
 
 **© 2025 - UTS Pemrograman Web 1 | D4 Teknik Informatika**
+
 
 
