@@ -8,7 +8,7 @@
 
 ## Link Repository & Deployment
 - **GitHub Repository**: `https://github.com/[username]/uts-[nama]-[nim]`
-- **GitHub Pages**: `https://[username].github.io/uts-[nama]-[nim]/`
+- **GitHub Pages**: `https://anjeli02.github.io/uts-ain-jelita-ikhwati-24090037/`
 
 ## Deskripsi Project
 
@@ -55,4 +55,5 @@ Halaman manajemen produk dengan fitur:
 - GitHub: [@anjeli02]
 
 ---
+
 **© 2025 - UTS Pemrograman Web 1 | D4 Teknik Informatika**
