@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - UTS Web</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="dashboard-page">
+    <div class="layout">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <nav class="sidebar-menu">
+                <a href="dashboard.html" class="menu-item active" title="Home">
+                    <svg width="20" height="20" viewBox="0 0 24 24">
+                        <rect x="3" y="10" width="8" height="11" fill="currentColor"/>
+                        <rect x="13" y="10" width="8" height="11" fill="currentColor"/>
+                        <polygon points="12,3 3,10 21,10" fill="currentColor"/>
+                    </svg>
+                </a>
+                <a href="dashboard.html" class="menu-item" title="Dashboard">
+                    <svg width="20" height="20" viewBox="0 0 24 24">
+                        <rect x="3" y="3" width="8" height="8" fill="currentColor"/>
+                        <rect x="13" y="3" width="8" height="8" fill="currentColor"/>
+                        <rect x="3" y="13" width="8" height="8" fill="currentColor"/>
+                        <rect x="13" y="13" width="8" height="8" fill="currentColor"/>
+                    </svg>
+                </a>
+                <a href="products.html" class="menu-item" title="Products">
+                    <svg width="20" height="20" viewBox="0 0 24 24">
+                        <rect x="5" y="4" width="14" height="16" rx="2" fill="currentColor"/>
+                        <circle cx="12" cy="10" r="2.5" fill="#F3F4F6"/>
+                        <rect x="10" y="14" width="4" height="1.5" fill="#F3F4F6"/>
+                    </svg>
+                </a>
+                <a href="products.html" class="menu-item" title="Reports">
+                    <svg width="20" height="20" viewBox="0 0 24 24">
+                        <rect x="5" y="4" width="14" height="16" rx="2" fill="currentColor"/>
+                        <rect x="8" y="14" width="2" height="5" fill="#F3F4F6"/>
+                        <rect x="11" y="11" width="2" height="8" fill="#F3F4F6"/>
+                        <rect x="14" y="8" width="2" height="11" fill="#F3F4F6"/>
+                    </svg>
+                </a>
+                <a href="#" class="menu-item menu-settings" title="Settings">
+                    <svg width="20" height="20" viewBox="0 0 24 24">
+                        <circle cx="12" cy="12" r="3" fill="currentColor"/>
+                        <rect x="11" y="4" width="2" height="4" fill="currentColor"/>
+                        <rect x="11" y="16" width="2" height="4" fill="currentColor"/>
+                        <rect x="4" y="11" width="4" height="2" fill="currentColor"/>
+                        <rect x="16" y="11" width="4" height="2" fill="currentColor"/>
+                    </svg>
+                </a>
+            </nav>
+        </aside>
+        
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="content-wrapper">
+                <h1 class="page-title">Dashboard</h1>
+                
+                <!-- Summary Cards -->
+                <div class="cards-container">
+                    <div class="summary-card">
+                        <div class="card-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24">
+                                <rect x="4" y="6" width="16" height="14" rx="2" fill="currentColor"/>
+                                <rect x="8" y="10" width="8" height="1" fill="white"/>
+                                <rect x="8" y="13" width="5" height="1" fill="white"/>
+                            </svg>
+                        </div>
+                        <div class="card-info">
+                            <div class="card-label">Total Products</div>
+                            <div class="card-value" id="totalProducts">120</div>
+                        </div>
+                    </div>
+                    
+                    <div class="summary-card">
+                        <div class="card-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24">
+                                <rect x="4" y="6" width="16" height="14" rx="2" fill="currentColor"/>
+                                <rect x="8" y="10" width="8" height="1" fill="white"/>
+                                <rect x="8" y="13" width="5" height="1" fill="white"/>
+                            </svg>
+                        </div>
+                        <div class="card-info">
+                            <div class="card-label">Total Sales</div>
+                            <div class="card-value" id="totalSales">85</div>
+                        </div>
+                    </div>
+                    
+                    <div class="summary-card">
+                        <div class="card-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24">
+                                <circle cx="12" cy="12" r="9" fill="currentColor"/>
+                                <text x="12" y="15" text-anchor="middle" font-size="10" fill="white" font-weight="bold">$</text>
+                            </svg>
+                        </div>
+                        <div class="card-info">
+                            <div class="card-label">Total Revenue</div>
+                            <div class="card-value" id="totalRevenue">Rp 12.500.000</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tombol Lihat Data Produk -->
+                <div class="button-container">
+                    <button onclick="window.location.href='products.html'" class="btn-view-products">
+                        Lihat Data Produk
+                    </button>
+                </div>
+                
+                <!-- Chart Area (Optional) -->
+                <div class="chart-area"></div>
+            </div>
+        </main>
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>

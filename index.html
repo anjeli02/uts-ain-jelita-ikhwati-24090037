@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - UTS Web</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="login-page">
+    <div class="login-container">
+        <!-- sebelah kiri -->
+        <div class="login-illustration">
+            <div class="illustration-box" style="height:420px; overflow:hidden; border-radius:12px;">
+                <img src="image/jennie.jpg" alt="Login illustration"
+                     style="width:100%; height:100%; object-fit:cover; object-position:center; display:block;">
+            </div>
+        </div>
+        
+        <!-- sebelah kanan welcome back -->
+        <div class="login-form-container">
+            <h1 class="login-title">Welcome Back!</h1>
+            
+            <form id="loginForm" class="login-form">
+                <div class="form-group">
+                    <div class="input-with-icon">
+                        <span class="input-icon">@</span>
+                        <input 
+                            type="email" 
+                            id="email" 
+                            placeholder="Email Address"
+                            required
+                        >
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <div class="input-with-icon">
+                        <span class="input-icon">🔒</span>
+                        <input 
+                            type="password" 
+                            id="password" 
+                            placeholder="Password"
+                            required
+                        >
+                    </div>
+                    <div class="forgot-password">
+                        <a href="#">Forgot Password?</a>
+                    </div>
+                </div>
+                
+                <div id="errorMessage" class="error-message"></div>
+                
+                <button type="submit" class="btn-login">Login</button>
+                
+                <div class="divider">
+                    <span>Or</span>
+                </div>
+                
+                <div class="social-login">
+                    <button type="button" class="btn-social btn-google">
+                        <span class="social-icon">G</span>
+                        Google
+                    </button>
+                    <button type="button" class="btn-social btn-facebook">
+                        <span class="social-icon">f</span>
+                        Facebook
+                    </button>
+                </div>
+                
+                <div class="signup-link">
+                    Don't have an account? <a href="#">Sign Up</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
